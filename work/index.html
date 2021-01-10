@@ -16,19 +16,19 @@
     <h1>フォーム作成</h1>
     <div class="account--box">
       <h2>アカウント作成</h2>
-      <form action="confirm.php" method="post"></form>
+      <form action="confirm.php" method="post">
         <h3>個人情報</h3>
         <div class="label--section">
           <label class="label--text" for="myouji">名字
             <span class="asterisk">※</span><br>
           </label>
-          <input type="text" class="text--box" id="myouji" name="lastname" required>
+          <input type="text" class="text--box" id="myouji" name="family-name" required autocomplete="family-name">
         </div>
         <div class="label--section">
           <label class="label--text" for="name">名前
             <span class="asterisk">※</span><br>
           </label>
-          <input type="text" class="text--box" id="name" name="firstname" required>
+          <input type="text" class="text--box" id="name" name="given-name" required autocomplete="given-name">
         </div>
         <div class="label--section">
           <label class="label--text">生年月日
