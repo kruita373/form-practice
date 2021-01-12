@@ -43,7 +43,6 @@ h2{
 h3{
   font-size: 18px;
   color: #000000;
-  margin-top: 50px;
 }
 .label--section{
   margin-top: 25px;
@@ -202,4 +201,6 @@ h3{
   color: #0170bf;
   text-decoration: none;
 }
-
+.personal--contents,.account--contents,.contact--contents,.subscribe--contents{
+  margin-top: 50px;
+}
